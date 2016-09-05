@@ -1,16 +1,32 @@
 <resources>
-    <string name="app_name">Sed testtt</string>
-    <string name="password">Password</string>
+    <string name="app_name">СЭД МВД</string>
+    <string name="documents">Документы</string>
     <string name="username">Username</string>
     <string name="loginButton">Login</string>
 
-    <string name="action_settings">Settings</string>
-    <string name="drawer_item_home">Home</string>
-    <string name="drawer_item_free_play">Free Play</string>
-    <string name="drawer_item_custom">Custom</string>
-    <string name="drawer_item_settings">Settings</string>
-    <string name="drawer_item_help">Help</string>
-    <string name="drawer_item_open_source">Open Source</string>
-    <string name="drawer_item_contact">Contact</string>
+    <string name="drawer_item_home">Синхронизация</string>
+    <string name="drawer_item_free_play">Синхронизация</string>
+    <string name="drawer_item_custom">Синхронизация</string>
+    <string name="drawer_item_settings">Синхронизация</string>
+    <string name="drawer_item_help">Синхронизация</string>
+    <string name="drawer_item_open_source">Синхронизация</string>
+    <string name="drawer_item_contact">Синхронизация</string>
+
+
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="account_already_exists">Аккаунт уже существует</string>
+
+    <string name="sync">Синхронизация</string>
+    <string name="settings">Настройки</string>
+    <string name="general_settings">Основные настройки</string>
+    <string name="sync_settings_summary">Автоматическая синхронизация и т.д.</string>
+    <string name="auto_sync">Автоматическая синхронизация</string>
+    <string name="auto_sync_summary">Синхронизация через определенные интервалы времени</string>
+    <string name="auto_sync_interval">Интервал синхронизации</string>
+    <string name="auto_sync_interval_summary">Промежуток времени выполнения синхронизации</string>
+
+    <string name="token_url">http://mobile.esd.n-core.ru/token/%1$s.json?password=%2$s</string>
 
 </resources>

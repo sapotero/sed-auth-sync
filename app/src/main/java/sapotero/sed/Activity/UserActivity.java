@@ -1,4 +1,4 @@
-package sapotero.sed;
+package sapotero.sed.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,6 +11,8 @@ import com.mikepenz.materialdrawer.model.DividerDrawerItem;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SectionDrawerItem;
+
+import sapotero.sed.R;
 
 public class UserActivity extends AppCompatActivity {
 
@@ -29,10 +31,10 @@ public class UserActivity extends AppCompatActivity {
         .withActionBarDrawerToggle(true)
         .withHeader(R.layout.drawer_header)
         .addDrawerItems(
-            new PrimaryDrawerItem().withName(R.string.drawer_item_home).withIcon(GoogleMaterial.Icon.gmd_format_italic).withBadge("99").withIdentifier(1),
-            new PrimaryDrawerItem().withName(R.string.drawer_item_free_play).withIcon(GoogleMaterial.Icon.gmd_format_italic),
-            new PrimaryDrawerItem().withName(R.string.drawer_item_custom).withIcon(GoogleMaterial.Icon.gmd_format_italic).withBadge("6").withIdentifier(2),
-            new SectionDrawerItem().withName(R.string.drawer_item_settings),
+            new PrimaryDrawerItem().withName(  R.string.drawer_item_home).withIcon(GoogleMaterial.Icon.gmd_format_italic).withBadge("99").withIdentifier(1),
+            new PrimaryDrawerItem().withName(  R.string.drawer_item_free_play).withIcon(GoogleMaterial.Icon.gmd_format_italic),
+            new PrimaryDrawerItem().withName(  R.string.drawer_item_custom).withIcon(GoogleMaterial.Icon.gmd_format_italic).withBadge("6").withIdentifier(2),
+            new SectionDrawerItem().withName(  R.string.drawer_item_settings),
             new SecondaryDrawerItem().withName(R.string.drawer_item_help).withIcon(GoogleMaterial.Icon.gmd_format_italic),
             new SecondaryDrawerItem().withName(R.string.drawer_item_open_source).withIcon(GoogleMaterial.Icon.gmd_format_italic),
             new DividerDrawerItem(),

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:persistent="true">
+
+    <PreferenceCategory android:title="@string/general_settings" />
+
+    <PreferenceScreen
+        android:key="sapotero.sed.KEY_ACCOUNT_SYNC"
+        android:summary="@string/sync_settings_summary"
+        android:title="@string/sync">
+        <intent
+            android:action="sapotero.sed.ACTION_SYNC_SETTINGS"
+            android:targetClass="sapotero.sed.Activity.SyncSettingsActivity"
+            android:targetPackage="sapotero.sed" />
+    </PreferenceScreen>
+
+</PreferenceScreen>
